@@ -25,7 +25,7 @@ background-color: #ffffff;
 padding: 0 40px;
 	-webkit-box-shadow: 0 0 50px #bbbbbb;
 	box-shadow: 0px 0px 50px #bbbbbb;
-	background-image: url(circle.png),url(circle-yellow.png);
+	background-image: url(8-1/circle.png),url(8-1/circle-yellow.png);
 	background-repeat: no-repeat;
 	background-position: 15px 420px,90px 500px;
 	background-size: 94px 94px,30px 30px;
@@ -196,6 +196,11 @@ article section:nth-of-type(odd) figcaption
 	{text-align: right;}
 
 
+/*ビデオ*/
+article {text-align: center;
+	margin: 30px 0 100px;}
+
+
 
 
 
@@ -250,6 +255,9 @@ nav ul {font-size: 10px;}
 
 nav ul li a{width: 100px;}
 
+video {width: 480px;
+	height: 270px;}
+
 }
 
 /* =====スマートフォン用の設定===== */
@@ -295,6 +303,10 @@ small	{
 	font-style: normal;
 	text-align: left;
 	display: block;}
+
+video {width: 280px;
+	height: 157px;}
+
 }
 
 
@@ -381,13 +393,22 @@ article section figure {margin-left:0}
 <!-- コンテンツ -->
 <article>
 
+<h1>川の中の風景</h1>
+
+<video width="640" height="360" controls>
+	<source src="8-1/sample.mp4" type="video/mp4">
+	<source src="8-1/sample.webm" type="video/webm">
+</video>
+
+
 
 </article>
 <!-- フッター -->
 <footer>
 <small>
-Powered by <a href="http://www.rescue.ne.jp/">CGI RESCUE</a><sup>&reg;</sup> ／
-Copyright (C) <a href="mailto:forest@web.mail">Forest Studio</a>
+Copyright (C) Green Leaf, All rights reserved.
+<!--Powered by <a href="http://www.rescue.ne.jp/">CGI RESCUE</a><sup>&reg;</sup> ／
+Copyright (C) <a href="mailto:forest@web.mail">Forest Studio</a>-->
 </small>
 </footer>
 
